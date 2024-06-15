@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="aXU5Wj" name="DistBlock" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="1" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginFormats="buildAAX,buildAU,buildStandalone,buildVST3">
+  <MAINGROUP id="ShhQT6" name="DistBlock">
+    <GROUP id="{B20D1D77-048A-889D-FD56-0790A0F44266}" name="Source">
+      <GROUP id="{4DA6837A-522D-C93B-AFD4-CFCB282BB7D8}" name="ViewModel">
+        <FILE id="AQUXAl" name="FlowChainViewModel.cpp" compile="1" resource="0"
+              file="Source/ViewModel/FlowChainViewModel.cpp"/>
+        <FILE id="P21V6c" name="FlowChainViewModel.h" compile="0" resource="0"
+              file="Source/ViewModel/FlowChainViewModel.h"/>
+      </GROUP>
+      <GROUP id="{1072EBDD-02C7-526A-193A-6F7D0F8086EC}" name="Clipping">
+        <FILE id="sLj9gX" name="TransferFunctions.cpp" compile="1" resource="0"
+              file="Source/Clipping/TransferFunctions.cpp"/>
+        <FILE id="PglATv" name="TransferFunctions.h" compile="0" resource="0"
+              file="Source/Clipping/TransferFunctions.h"/>
+      </GROUP>
+      <GROUP id="{07630326-FF6A-D0AA-8C4E-A2DD3AB4B0D2}" name="Routing">
+        <FILE id="IeyEWT" name="convolution.c" compile="1" resource="0" file="Source/Routing/convolution.c"/>
+        <FILE id="TbFd7L" name="convolution.h" compile="0" resource="0" file="Source/Routing/convolution.h"/>
+        <FILE id="L8tCxG" name="Block.cpp" compile="1" resource="0" file="Source/Routing/Block.cpp"/>
+        <FILE id="DgCH7p" name="Block.h" compile="0" resource="0" file="Source/Routing/Block.h"/>
+        <FILE id="O1cWne" name="IRBlock.cpp" compile="1" resource="0" file="Source/Routing/IRBlock.cpp"/>
+        <FILE id="yWSoaG" name="IRBlock.h" compile="0" resource="0" file="Source/Routing/IRBlock.h"/>
+        <FILE id="Z4AyaG" name="Manager.cpp" compile="1" resource="0" file="Source/Routing/Manager.cpp"/>
+        <FILE id="XVc9E3" name="Manager.h" compile="0" resource="0" file="Source/Routing/Manager.h"/>
+        <FILE id="NFsUvU" name="WaveShaperBlock.cpp" compile="1" resource="0"
+              file="Source/Routing/WaveShaperBlock.cpp"/>
+        <FILE id="MKAgio" name="WaveShaperBlock.h" compile="0" resource="0"
+              file="Source/Routing/WaveShaperBlock.h"/>
+      </GROUP>
+      <GROUP id="{E6CC0DD5-8992-92BB-B14A-2EFA92C9EB4E}" name="GUI">
+        <FILE id="guKu8j" name="EffectEditPanel.cpp" compile="1" resource="0"
+              file="Source/GUI/EffectEditPanel.cpp"/>
+        <FILE id="hIaNnL" name="EffectEditPanel.h" compile="0" resource="0"
+              file="Source/GUI/EffectEditPanel.h"/>
+        <FILE id="pk7rgy" name="FlowChainView.cpp" compile="1" resource="0"
+              file="Source/GUI/FlowChainView.cpp"/>
+        <FILE id="J3vyGS" name="FlowChainView.h" compile="0" resource="0" file="Source/GUI/FlowChainView.h"/>
+        <FILE id="PbC1eY" name="GuiCommon.h" compile="0" resource="0" file="Source/GUI/GuiCommon.h"/>
+        <FILE id="ujZbCp" name="NewBlockParamView.cpp" compile="1" resource="0"
+              file="Source/GUI/NewBlockParamView.cpp"/>
+        <FILE id="xBY8cF" name="NewBlockParamView.h" compile="0" resource="0"
+              file="Source/GUI/NewBlockParamView.h"/>
+        <FILE id="jVzqsF" name="VerticalGridMeter.cpp" compile="1" resource="0"
+              file="Source/GUI/VerticalGridMeter.cpp"/>
+        <FILE id="eOiyL7" name="VerticalGridMeter.h" compile="0" resource="0"
+              file="Source/GUI/VerticalGridMeter.h"/>
+      </GROUP>
+      <FILE id="KWkTVD" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="vrPHRa" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="WBSYl7" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="Ky94iA" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" microphonePermissionNeeded="1">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DistBlock"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DistBlock"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
