@@ -1,4 +1,5 @@
 # DistBlock: Realtime Distortion Stacking Application
+![Preview](./Resource/application_preview.png)
 
 DistBlock is a real-time distortion stacking application/plugin that allows users to stack various clipping functions to create custom distortion sounds. Developed using the JUCE framework, it features multiple serial processing slots, real-time adjustable parameters, and more.
 
